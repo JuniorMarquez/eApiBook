@@ -5,11 +5,11 @@ var smtpPassword = require('aws-smtp-credentials');
 module.exports = (formulario) => {
   var transporter = nodemailer.createTransport({
       port: 465,
-  host: 'email-smtp.us-east-1.amazonaws.com',
+  host: '',
   secure: true,
   auth: {
-    user:'AKIA2QGC2OLT5A76S3TB',
-    pass: 'BHTLfkGMW+iWnn2/ZXz4Ak4cNwUpqdau4udCnTaYnECS',
+    user:'',
+    pass: '',
   },
   debug: true
   
